@@ -6,3 +6,5 @@ project "spdlog"
 
     files {"src/**.cpp","include/**.h","include/**.hpp"}
     includedirs {"include/"}
+    defines {"SPDLOG_COMPILED_LIB"}
+    characterset "Unicode
