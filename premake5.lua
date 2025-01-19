@@ -5,4 +5,4 @@ project "spdlog"
     objdir "bin-int/"
 
     files {"src/**.cpp","include/**.h","include/**.hpp"}
-    includeDirs {"include/"}
+    includedirs {"include/"}
